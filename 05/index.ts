@@ -3,8 +3,8 @@ const palavra: string = "Programador";
 //primeira forma de fazer utilizando for of
 // const soletrar = (palavra: string) :string =>{
 //     let resultado: string = "" // essa variavel resultado vai armazenar cada elemento percorrido pelo for
-//     for (const element of palavra) {
-//             resultado += element[0] //resultado vai armazenar cada letrinha, começando desde a primeira[0]
+//     for (const char of palavra) {
+//             resultado += char //resultado vai armazenar cada letrinha, começando desde a primeira(NAO E NECESSARIO POIS O FOR OF JA PERCORRE CADA INDEX DE FORMA AUTOMATICA)
 //             resultado += "-" //apos armazenar uma letra, vai concatenar com o hifen
 //     }
     
